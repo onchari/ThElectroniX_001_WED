@@ -5,12 +5,318 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\images\banner1.svg" />
-    <None Include="wwwroot\images\banner2.svg" />
-    <None Include="wwwroot\images\banner3.svg" />
-    <None Include="wwwroot\images\banner4.svg" />
+    <None Remove="Scripts\js\blog_custom.js" />
+    <None Remove="Scripts\js\blog_single_custom.js" />
+    <None Remove="Scripts\js\cart_custom.js" />
+    <None Remove="Scripts\js\contact_custom.js" />
+    <None Remove="Scripts\js\custom.js" />
+    <None Remove="Scripts\js\jquery-3.3.1.min.js" />
+    <None Remove="Scripts\js\product_custom.js" />
+    <None Remove="Scripts\js\regular_custom.js" />
+    <None Remove="Scripts\js\shop_custom.js" />
+    <None Remove="Scripts\plugins\easing\easing.js" />
+    <None Remove="Scripts\plugins\fontawesome-free-5.0.1\css\fontawesome-all.css" />
+    <None Remove="Scripts\plugins\fontawesome-free-5.0.1\webfonts\fa-brands-400.eot" />
+    <None Remove="Scripts\plugins\fontawesome-free-5.0.1\webfonts\fa-brands-400.svg" />
+    <None Remove="Scripts\plugins\fontawesome-free-5.0.1\webfonts\fa-brands-400.ttf" />
+    <None Remove="Scripts\plugins\fontawesome-free-5.0.1\webfonts\fa-brands-400.woff" />
+    <None Remove="Scripts\plugins\fontawesome-free-5.0.1\webfonts\fa-brands-400.woff2" />
+    <None Remove="Scripts\plugins\fontawesome-free-5.0.1\webfonts\fa-regular-400.eot" />
+    <None Remove="Scripts\plugins\fontawesome-free-5.0.1\webfonts\fa-regular-400.svg" />
+    <None Remove="Scripts\plugins\fontawesome-free-5.0.1\webfonts\fa-regular-400.ttf" />
+    <None Remove="Scripts\plugins\fontawesome-free-5.0.1\webfonts\fa-regular-400.woff" />
+    <None Remove="Scripts\plugins\fontawesome-free-5.0.1\webfonts\fa-regular-400.woff2" />
+    <None Remove="Scripts\plugins\fontawesome-free-5.0.1\webfonts\fa-solid-900.eot" />
+    <None Remove="Scripts\plugins\fontawesome-free-5.0.1\webfonts\fa-solid-900.svg" />
+    <None Remove="Scripts\plugins\fontawesome-free-5.0.1\webfonts\fa-solid-900.ttf" />
+    <None Remove="Scripts\plugins\fontawesome-free-5.0.1\webfonts\fa-solid-900.woff" />
+    <None Remove="Scripts\plugins\fontawesome-free-5.0.1\webfonts\fa-solid-900.woff2" />
+    <None Remove="Scripts\plugins\greensock\animation.gsap.min.js" />
+    <None Remove="Scripts\plugins\greensock\ScrollToPlugin.min.js" />
+    <None Remove="Scripts\plugins\greensock\TimelineMax.min.js" />
+    <None Remove="Scripts\plugins\greensock\TweenMax.min.js" />
+    <None Remove="Scripts\plugins\Isotope\isotope.pkgd.min.js" />
+    <None Remove="Scripts\plugins\jquery-ui-1.12.1.custom\jquery-ui.css" />
+    <None Remove="Scripts\plugins\jquery-ui-1.12.1.custom\jquery-ui.js" />
+    <None Remove="Scripts\plugins\OwlCarousel2-2.2.1\ajax-loader.gif" />
+    <None Remove="Scripts\plugins\OwlCarousel2-2.2.1\animate.css" />
+    <None Remove="Scripts\plugins\OwlCarousel2-2.2.1\owl.carousel.css" />
+    <None Remove="Scripts\plugins\OwlCarousel2-2.2.1\owl.carousel.js" />
+    <None Remove="Scripts\plugins\OwlCarousel2-2.2.1\owl.theme.default.css" />
+    <None Remove="Scripts\plugins\OwlCarousel2-2.2.1\owl.video.play.png" />
+    <None Remove="Scripts\plugins\parallax-js-master\parallax.min.js" />
+    <None Remove="Scripts\plugins\scrollmagic\ScrollMagic.min.js" />
+    <None Remove="Scripts\plugins\slick-1.8.0\ajax-loader.gif" />
+    <None Remove="Scripts\plugins\slick-1.8.0\fonts\slick.eot" />
+    <None Remove="Scripts\plugins\slick-1.8.0\fonts\slick.svg" />
+    <None Remove="Scripts\plugins\slick-1.8.0\fonts\slick.ttf" />
+    <None Remove="Scripts\plugins\slick-1.8.0\fonts\slick.woff" />
+    <None Remove="Scripts\plugins\slick-1.8.0\index.html" />
+    <None Remove="Scripts\plugins\slick-1.8.0\slick.css" />
+    <None Remove="Scripts\plugins\slick-1.8.0\slick.js" />
+    <None Remove="Scripts\styles\blog_responsive.css" />
+    <None Remove="Scripts\styles\blog_single_responsive.css" />
+    <None Remove="Scripts\styles\blog_single_styles.css" />
+    <None Remove="Scripts\styles\blog_styles.css" />
+    <None Remove="Scripts\styles\bootstrap4\bootstrap.min.css" />
+    <None Remove="Scripts\styles\bootstrap4\bootstrap.min.js" />
+    <None Remove="Scripts\styles\bootstrap4\popper.js" />
+    <None Remove="Scripts\styles\cart_responsive.css" />
+    <None Remove="Scripts\styles\cart_styles.css" />
+    <None Remove="Scripts\styles\contact_responsive.css" />
+    <None Remove="Scripts\styles\contact_styles.css" />
+    <None Remove="Scripts\styles\main_styles.css" />
+    <None Remove="Scripts\styles\product_responsive.css" />
+    <None Remove="Scripts\styles\product_styles.css" />
+    <None Remove="Scripts\styles\regular_responsive.css" />
+    <None Remove="Scripts\styles\regular_styles.css" />
+    <None Remove="Scripts\styles\responsive.css" />
+    <None Remove="Scripts\styles\shop_responsive.css" />
+    <None Remove="Scripts\styles\shop_styles.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Scripts\js\blog_custom.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\js\blog_single_custom.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\js\cart_custom.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\js\contact_custom.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\js\custom.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\js\jquery-3.3.1.min.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\js\product_custom.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\js\regular_custom.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\js\shop_custom.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\plugins\easing\easing.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\plugins\fontawesome-free-5.0.1\css\fontawesome-all.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\plugins\fontawesome-free-5.0.1\webfonts\fa-brands-400.eot">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\plugins\fontawesome-free-5.0.1\webfonts\fa-brands-400.svg">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\plugins\fontawesome-free-5.0.1\webfonts\fa-brands-400.ttf">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\plugins\fontawesome-free-5.0.1\webfonts\fa-brands-400.woff">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\plugins\fontawesome-free-5.0.1\webfonts\fa-brands-400.woff2">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\plugins\fontawesome-free-5.0.1\webfonts\fa-regular-400.eot">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\plugins\fontawesome-free-5.0.1\webfonts\fa-regular-400.svg">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\plugins\fontawesome-free-5.0.1\webfonts\fa-regular-400.ttf">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\plugins\fontawesome-free-5.0.1\webfonts\fa-regular-400.woff">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\plugins\fontawesome-free-5.0.1\webfonts\fa-regular-400.woff2">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\plugins\fontawesome-free-5.0.1\webfonts\fa-solid-900.eot">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\plugins\fontawesome-free-5.0.1\webfonts\fa-solid-900.svg">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\plugins\fontawesome-free-5.0.1\webfonts\fa-solid-900.ttf">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\plugins\fontawesome-free-5.0.1\webfonts\fa-solid-900.woff">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\plugins\fontawesome-free-5.0.1\webfonts\fa-solid-900.woff2">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\plugins\greensock\animation.gsap.min.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\plugins\greensock\ScrollToPlugin.min.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\plugins\greensock\TimelineMax.min.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\plugins\greensock\TweenMax.min.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\plugins\Isotope\isotope.pkgd.min.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\plugins\jquery-ui-1.12.1.custom\jquery-ui.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\plugins\jquery-ui-1.12.1.custom\jquery-ui.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\plugins\OwlCarousel2-2.2.1\ajax-loader.gif">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\plugins\OwlCarousel2-2.2.1\animate.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\plugins\OwlCarousel2-2.2.1\owl.carousel.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\plugins\OwlCarousel2-2.2.1\owl.carousel.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\plugins\OwlCarousel2-2.2.1\owl.theme.default.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\plugins\OwlCarousel2-2.2.1\owl.video.play.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\plugins\parallax-js-master\parallax.min.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\plugins\scrollmagic\ScrollMagic.min.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\plugins\slick-1.8.0\ajax-loader.gif">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\plugins\slick-1.8.0\fonts\slick.eot">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\plugins\slick-1.8.0\fonts\slick.svg">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\plugins\slick-1.8.0\fonts\slick.ttf">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\plugins\slick-1.8.0\fonts\slick.woff">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\plugins\slick-1.8.0\index.html">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\plugins\slick-1.8.0\slick.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\plugins\slick-1.8.0\slick.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\styles\blog_responsive.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\styles\blog_single_responsive.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\styles\blog_single_styles.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\styles\blog_styles.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\styles\bootstrap4\bootstrap.min.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\styles\bootstrap4\bootstrap.min.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\styles\bootstrap4\popper.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\styles\cart_responsive.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\styles\cart_styles.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\styles\contact_responsive.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\styles\contact_styles.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\styles\main_styles.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\styles\product_responsive.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\styles\product_styles.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\styles\regular_responsive.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\styles\regular_styles.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\styles\responsive.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\styles\shop_responsive.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Scripts\styles\shop_styles.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Scripts\js\site.js" />
+    <None Include="Scripts\js\site.min.js" />
+    <None Include="wwwroot\images\user.svg" />
+    <None Include="wwwroot\js\blog_custom.js" />
+    <None Include="wwwroot\js\blog_single_custom.js" />
+    <None Include="wwwroot\js\cart_custom.js" />
+    <None Include="wwwroot\js\contact_custom.js" />
+    <None Include="wwwroot\js\custom.js" />
+    <None Include="wwwroot\js\jquery-3.3.1.min.js" />
+    <None Include="wwwroot\js\product_custom.js" />
+    <None Include="wwwroot\js\regular_custom.js" />
+    <None Include="wwwroot\js\shop_custom.js" />
     <None Include="wwwroot\js\site.js" />
     <None Include="wwwroot\js\site.min.js" />
+    <None Include="wwwroot\plugins\easing\easing.js" />
+    <None Include="wwwroot\plugins\fontawesome-free-5.0.1\webfonts\fa-brands-400.svg" />
+    <None Include="wwwroot\plugins\fontawesome-free-5.0.1\webfonts\fa-brands-400.woff2" />
+    <None Include="wwwroot\plugins\fontawesome-free-5.0.1\webfonts\fa-regular-400.svg" />
+    <None Include="wwwroot\plugins\fontawesome-free-5.0.1\webfonts\fa-regular-400.woff2" />
+    <None Include="wwwroot\plugins\fontawesome-free-5.0.1\webfonts\fa-solid-900.svg" />
+    <None Include="wwwroot\plugins\fontawesome-free-5.0.1\webfonts\fa-solid-900.woff2" />
+    <None Include="wwwroot\plugins\greensock\animation.gsap.min.js" />
+    <None Include="wwwroot\plugins\greensock\ScrollToPlugin.min.js" />
+    <None Include="wwwroot\plugins\greensock\TimelineMax.min.js" />
+    <None Include="wwwroot\plugins\greensock\TweenMax.min.js" />
+    <None Include="wwwroot\plugins\Isotope\isotope.pkgd.min.js" />
+    <None Include="wwwroot\plugins\jquery-ui-1.12.1.custom\jquery-ui.js" />
+    <None Include="wwwroot\plugins\OwlCarousel2-2.2.1\owl.carousel.js" />
+    <None Include="wwwroot\plugins\parallax-js-master\parallax.min.js" />
+    <None Include="wwwroot\plugins\scrollmagic\ScrollMagic.min.js" />
+    <None Include="wwwroot\plugins\slick-1.8.0\fonts\slick.svg" />
+    <None Include="wwwroot\plugins\slick-1.8.0\slick.js" />
+    <None Include="wwwroot\styles\bootstrap4\bootstrap.min.js" />
+    <None Include="wwwroot\styles\bootstrap4\popper.js" />
   </ItemGroup>
 
   <ItemGroup>
