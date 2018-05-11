@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ThElectroniX_001_WED.Areas.Admin.Controllers
 {
+    [Area("Admin")]
+    [Route("admin/[controller]")]
     public class PhonesTabletsController : Controller
     {
         public IActionResult PhonesTablets()
